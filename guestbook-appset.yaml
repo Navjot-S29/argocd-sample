@@ -11,9 +11,9 @@ spec:
     spec:
       project: "default"
       source:
-        repoURL: https://github.com/argoproj/argocd-example-apps/
+        repoURL: https://github.com/Navjot-S29/argocd-sample.git
         targetRevision: HEAD
-        path: guestbook
+        path: svcyaml
       destination:
         server: '{{server}}' # 'server' field of the secret
-        namespace: guestbook
+        namespace: test
